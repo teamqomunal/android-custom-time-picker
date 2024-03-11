@@ -22,7 +22,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
 
     override fun initUI() {
         binding.apply {
-
+            timePickerSpinner.setIs24HourView(true)
         }
     }
 

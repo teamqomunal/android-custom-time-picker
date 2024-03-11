@@ -1,8 +1,16 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
     <style name="Base.Theme.AndroidResearch" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="time_picker_style">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColorPrimaryInverse">@color/white</item>
+        <item name="android:textColorSecondaryInverse">@color/white</item>
+        <item name="android:textColor">@android:color/transparent</item> <!-- color for colon -->
+        <item name="colorControlNormal">@android:color/transparent</item>
     </style>
 
     <style name="Theme.AndroidResearch" parent="Base.Theme.AndroidResearch" />
